@@ -32,6 +32,7 @@ font-weight: 800;
 }
 .main-text{
     font-weight:bold;
+    justify-content: center;
 font-size: 64px;
 text-wrap:;
 width: 975px;
@@ -66,6 +67,16 @@ height: 152px;
 .world{
     display: flex;
     gap: 158px;
+    justify-content: center;
+    padding: 50px 80px 50px 80px ;
+}
+.pop{
+    background-color:rgba(78, 71, 255, 0.1) ;
+    width: 1140px;
+    height: 306;
+    border-radius: 7px;
+    text-align: center;
+    margin: 70px 150px 50px 150px;
 }
 .number{
     font-size: 80px;
@@ -81,4 +92,31 @@ height: 152px;
     font-size:38px ;
     font-weight:bold ;
     justify-content: center;
+    padding:50px ;
+}
+.head-03{
+    font-weight: bold;
+    font-size: 50px;
+    align-items: center;
+    width: 120%;
+}
+.book{
+    text-align: center;
+    flex-direction: column;
+    gap: 150px;
+    width: 1140px;
+    height: 670px;
+    font-weight:20%;
+    border-radius: 7px;;
+    margin:70px 150px 70px 150px ;
+    background-color: rgb(211, 229, 244);
+
+}
+.lotus{
+    width:840px ;
+    height: 365px;
+    border-radius: 7px;
+}
+.book[div]{
+    gap: 20px;
 }
