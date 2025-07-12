@@ -102,8 +102,7 @@ height: 152px;
 }
 .book{
     text-align: center;
-    flex-direction: column;
-    gap: 150px;
+    justify-content: center;
     width: 1140px;
     height: 670px;
     font-weight:20%;
@@ -119,4 +118,61 @@ height: 152px;
 }
 .book[div]{
     gap: 20px;
+}
+#x{
+    color: rgba(0, 0, 0, 0.5);
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height:632px ;
+    background-color: rgb(191, 245, 245);
+    border-radius: 5px;
+    margin:70px 150px 50px 150px ;
+}
+#moon{
+    width: 528px;
+    height: 232px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 97px;
+    color: black;
+    margin-left: 130px;
+    margin-top: 120px;
+}.pen{
+    width: 497px;
+    height: 70px;
+    background-color: aliceblue;
+    margin-right: 150px;
+    padding-top:;
+    border: none;
+}
+#pencil{
+     width: 497px;
+    height: 140px;
+    background-color: aliceblue;
+    margin-right: 150px;
+    border: none;
+
+}
+.container{
+    margin-top: 100px;
+}
+.footer{
+    width: 1440px;
+    height: 428px;
+    background-color: rgb(184, 245, 245);
+    border-radius: 5px;
+    margin: 150px 150px 150px 150px;
+}
+
+.footer-title{
+    font-size:100px;
+    color: #4E47FF;
+
+}
+.last{
+    display: flex;
+    justify-content: space-between;
 }
